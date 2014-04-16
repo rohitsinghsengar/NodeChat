@@ -1,0 +1,24 @@
+extends layout
+
+block append head
+	link(rel='stylesheet', href='/stylesheets/chat.css')
+	
+	script(src="/socket.io/socket.io.js")
+	script(src="/javascripts/jquery/jquery-1.7.min.js")
+	script(src="/javascripts/chat.js")
+
+block content
+
+	header.fixed-bar
+		div.signin
+			input#userName(type="text", placeholder="Username")
+			input#ok.btn-signin(type="button", value="Sign in")
+		div.userlist(style="display:none;")
+			select#users
+				
+	div.container
+		div#msgWindow
+			
+	footer.fixed-bar
+		div.message
+			input#msg(type="text", placeholder="Type your message..", disabled="true")

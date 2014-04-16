@@ -1,0 +1,113 @@
+.fixed-bar {
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	z-index: 1030;
+	border-radius: 0px;
+	background-color: #222;
+	border-color: #080808;
+}
+
+header.fixed-bar {
+	min-height: 50px;
+	top: 0px;
+	border-width: 0px 0px 1px;
+}
+
+footer.fixed-bar {
+	min-height: 50px;
+	bottom: 0px;
+	border-width: 1px 0px 0px;
+	display: none;
+}
+
+.signin, .userlist{
+  margin: 8px;
+}
+
+input#userName {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+	padding: 7px;
+	font-size: 14px;
+	color: #555;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.btn-signin {
+	color: #FFF;
+	background-color: #5CB85C;
+	border-color: #4CAE4C;
+	display: inline-block;
+	margin-bottom: 0px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 8px 12px;
+	border-radius: 4px;
+}
+
+.userlist {
+	height: 34px;
+	overflow: hidden;
+	background: url(http://cdn.bavotasan.com/wp-content/uploads/2011/05/down_arrow_select.jpg) no-repeat right #ddd;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.userlist select {
+	background: transparent;
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+}
+
+.privMsg {
+  font-style:italic;
+}
+
+.adminMsg {
+  font-face: "verdana, helvetica";
+  font-size: 8;
+}
+ 
+#msgWindow {
+  white-space: pre;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.message {
+	margin: 8px;
+	height: 34px;
+	border-radius: 4px;
+}
+
+#msg {
+	display: inline-block;
+	width: 96%;
+	vertical-align: middle;
+	padding: 7px;
+	font-size: 14px;
+	color: #555;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}

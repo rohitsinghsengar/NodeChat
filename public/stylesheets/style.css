@@ -1,0 +1,20 @@
+html {
+	background-color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	color: #333;
+	overflow-y: auto;
+}
+body {
+	padding: 0px;
+	margin: 50px 0px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;   
+}
+a {
+	color: #00B7FF;
+}
